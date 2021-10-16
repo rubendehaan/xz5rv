@@ -8,15 +8,15 @@ body {
 section {
   background: white;
   color: gray;
-  padding: 10px;
-  display: absolute;
+  padding: 30px;
+  display: flex;
   flex-direction: row;
   font-family: Arial, Helvetica, sans-serif;
   font-size: smaller;
   text-align: center;
-  left:0px;
-  bottom:0px;
-  position: absolute}
+  position:absolute;
+  bottom: 0;
+  left:0;}
 
   section div {
     background: none;
@@ -30,31 +30,14 @@ section {
   position:absolute;
   right:400px;
   top:230px}
-
-.photoBOOT {
-    width:700px;
-    border-radius: 10px;
-    position:absolute;
-    right:150px;
-    top:280px}
-
-.photoAOWS {
-    width:700px;
-    border-radius: 10px;
-    position:absolute;
-    right:150px;
-    top:280px}
+  
 
 .reflection01 {
-  display:flex;
   width:250px;
-  border-radius: 10px;}
-
-  .reflection02 {
-    display:flex;
-    width:250px;
-    border-radius: 10px;
-    margin-top: 40px}
+  border-radius: 10px;
+  position:absolute;
+  right:700px;
+  top:240px;}
 
 .title {
   font-size: xx-large;
@@ -63,22 +46,28 @@ section {
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  margin-bottom: -15px;}
-  
+  margin-bottom: -15px;
+}
+h1 {
+  color: white;
+  font-size:xx-large;
+  margin-bottom:-15px;}
+
+h2 {
+  color: white;
+  margin-bottom: 10px;}
+
+h3 {
+  color: white;
+  margin-bottom: 300px;
+  font-size: smaller;}
+
 div {
 background-color:none;
-margin: 10px;
+margin: auto;
 display: inline-block;
+width: 100px}
+
+.menu {
+  font-size:small;
 }
-
-.blog {
-  display: inline-block;
-  width: 500px}
-
-.subtitle {
-  color:rgb(204, 204, 204);
-  display: absolute;
-  left:200px;
-  margin-top:20px;
-  width:400px;}
-
