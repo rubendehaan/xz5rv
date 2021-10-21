@@ -1,34 +1,44 @@
+header{
+    padding:30px;
+    height:10%;
+}
+
 body {
     background: black;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-size: small;
-    padding: 200px 0px 20px 80px ;} 
+    padding: 30px 40% 0px 5% ;} 
+
 
 section {
-  background: white;
-  color: gray;
-  padding: 10px;
-  display: absolute;
-  flex-direction: row;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: smaller;
-  text-align: center;
-  left:0px;
-  bottom:0px;
-  position: absolute}
+  display:flex;
+  flex-direction:row;
+}
 
-  .main-menu {
-    text-decoration: none;
-    color: red;
-    }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;}
+
+li {
+    display: inline-block;
+    margin-right: 40px;}
+
+
+.main-menu {
+   font-family:Helvetica;
+   margin: auto;
+   width: 300px;
+   background-color:black;}
+
 
 .photo {
   width:120px;
   border-radius: 10px;
   position:absolute;
   right:400px;
-  top:230px}
+  top:21%}
 
 .photoBOOT {
     width:700px;
@@ -45,17 +55,22 @@ section {
     top:280px}
 
 .reflection01 {
-  display:flex;
-  width:250px;
-  border-radius: 10px;}
+    display:flex;
+    flex-direction: row;
+    width:250px;
+    border-radius: 10px;
+    margin-top:30px}
 
   .reflection02 {
     display:flex;
+    flex-direction: row;
     width:250px;
     border-radius: 10px;
-    margin-top: 40px}
+    margin-top:30px;
+    margin-left:40px}
 
 .title {
+  font: helvetica;
   font-size: xx-large;
 }
 
@@ -64,16 +79,13 @@ p {
   font-size: large;
   margin-bottom: -15px;}
   
-div {
-color:black;
-background-color:none;
-margin: 10px;
-display: inline-block;
-}
+
 
 .blog {
   display: inline-block;
-  width: 500px}
+  width: 500px;
+  margin-left: 30px;
+  }
 
 .subtitle {
   color:rgb(204, 204, 204);
@@ -83,3 +95,5 @@ display: inline-block;
   margin-top:20px;
   width:400px;}
 
+
+a{ cursor: url("cursor.gif"), url("cursor.cur") default;}
