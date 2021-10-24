@@ -2,20 +2,33 @@ header{
     padding:20px;
     margin-bottom:5%;
     height:10%;
-    background-color:white;}
+    background-color:white;
+    border-radius: 20px;}
 
-body {
-    background: black;
+
+body{
+    background-color:black;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:"Messina Sans";
     font-size: small;
     padding: 0px 0px 0px 5% ;} 
 
+  
 .menu {
     text-decoration:none;
-    font-family:helvetica;
+    font-family:"Messina Sans";
     color:black;}
 
+.menu-locked {
+  text-decoration:none;
+  font-family:helvetica;
+  color:rgb(211, 211, 211);
+}
+
+.links{
+    text-decoration:none;
+    color:gray;
+}
 .link{
     text-decoration:none;
     font-family: helvetica;
@@ -31,6 +44,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;}
+
 
 li {
     display: inline-block;
@@ -99,18 +113,51 @@ li {
         border-radius: 10px;
         margin-top: 30px;}
 
+.topic4 {
+        display:flex;
+        flex-direction: row;
+        width:250px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 30px;}
+
+.topic5 {
+       display:flex;
+       flex-direction: column;
+       width:250px;
+       border-radius: 10px;
+       margin-top: 30px;}
+
+.photo1designstudio1{
+  position:absolute;
+  width:800px;
+  right:20px;
+  top:200px;}
+
+  .photo2designstudio1{
+    position:absolute;
+    width:500px;
+    right:20px;
+    top:800px;
+  border-radius:8px;}
+  .photo3designstudio1{
+      position:absolute;
+      width:800px;
+      right:20px;
+      top:1200px;}
 
 .title {
-  font: helvetica;
+  font: Helvetica;
   font-size: xx-large;}
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Messina Sans";
   font-size: large;
   margin-bottom: -15px;}
   
 .blog {
   display: inline-block;
+  font-family: "Open Sans";
   width: 500px;
   margin-left: 30px;}
 
