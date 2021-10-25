@@ -62,7 +62,7 @@ li {
     width:700px;
     border-radius: 10px;
     position:absolute;
-    right:150px;
+    right:20px;
     top:180px}
 
 .micro {
@@ -139,7 +139,8 @@ li {
     width:500px;
     right:20px;
     top:800px;
-  border-radius:8px;}
+    border-radius:8px;}
+
   .photo3designstudio1{
       position:absolute;
       width:800px;
