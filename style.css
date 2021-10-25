@@ -21,7 +21,7 @@ body{
 
 .menu-locked {
   text-decoration:none;
-  font-family:helvetica;
+  font-family:"Messina Sans";
   color:rgb(211, 211, 211);
 }
 
@@ -69,17 +69,17 @@ li {
   width:700px;}
 
 .photoAOWS1 {
-  position: absolute;
+  position:absolute;
   width: 600px;
   border-radius: 10px;
   right:5%;
   top:200px;}
 
- .photoAOWS2 {
-      position:absolute;
-      width:700px;
-      right:10px;
-      top:700px;}
+.photoAOWS2 {
+  position:absolute;
+  width:700px;
+  right:10px;
+  top:700px;}
 
 .label1 {
   position:absolute;
