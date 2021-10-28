@@ -4,38 +4,31 @@ header{
     height:10%;
     background:linear-gradient(-45deg, #29a348, #05aaa2, #12607c, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;;
+    animation: gradient 10s ease infinite;
     border-radius: 20px;}
 
     @keyframes gradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  }
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}}
 
 
 body{
     background-color:black;
     color: white;
-    font-family:"Messina Sans";
+    font-family:Arial, Helvetica, sans-serif;
     font-size: small;
     padding: 0px 0px 0px 5% ;} 
 
   
 .menu {
     text-decoration:none;
-    font-family:"Messina Sans";
+    font-family:Arial, Helvetica, sans-serif;
     color:black;}
 
 .menu-locked {
   text-decoration:none;
-  font-family:"Messina Sans";
+  font-family:Arial, Helvetica, sans-serif;
   color:rgb(211, 211, 211);
 }
 
@@ -45,7 +38,7 @@ body{
 }
 .link{
     text-decoration:none;
-    font-family: helvetica;
+    font-family: Arial, Helvetica, sans-serif;
     color:white;
     font-weight: 900;}
 
@@ -166,19 +159,19 @@ li {
   font-size: xx-large;}
 
 p {
-  font-family: "Messina Sans";
+  font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   margin-bottom: -15px;}
   
 .blog {
   display: inline-block;
-  font-family: "Open Sans";
+  font-family:Arial, Helvetica, sans-serif;
   width: 500px;
   margin-left: 30px;}
 
 .subtitle {
   color:rgb(204, 204, 204);
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   display: absolute;
   left:200px;
   margin-top:20px;
