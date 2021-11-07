@@ -9,6 +9,9 @@
   .term1-menu {
   display:block;}
 
+
+  /* STYLE */
+
 header{
     padding:20px;
     margin-bottom:5%;
@@ -119,6 +122,12 @@ li {
   margin-bottom:20px;
   border-radius: 10px;}
 
+.photoAGRI4 {
+  width: 500px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-radius: 10px;}
+
 .label1 {
   position:absolute;
   right:10px;
@@ -209,10 +218,12 @@ li {
   margin-top:200px;}
 
 .photo3livingwithyourownideas{
-  position:absolute;
+  position:relative;
+  display:flex;
   width:500px;
-  left:110px;
-  margin-top:25px;}
+  left:0px;
+  margin-top:25px;
+  margin-bottom:25px;}
 
 .title {
   font: Helvetica;
