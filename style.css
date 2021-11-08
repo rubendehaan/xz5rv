@@ -204,6 +204,14 @@ li {
   right:20px;
   top:1200px;}
 
+.photo1designstudio2{
+  position:relative;
+  display:flex;
+  width:500px;
+  left:30px;
+  margin-top:40px;
+  border-radius: 10px;}
+
 .photo1livingwithyourownideas{
   position:absolute;
   width:400px;
