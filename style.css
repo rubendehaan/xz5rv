@@ -5,9 +5,14 @@
   .photo {
   display:block;
   margin-right:150px;
-  margin-top:150px;}}
+  margin-top:150px;}
   .term1-menu {
   display:block;}
+  .menu {
+    padding:20px 50px 20px 0px;
+    display:flex;
+    flex-direction:column;}
+  }
 
 
   /* STYLE */
@@ -114,6 +119,10 @@ li {
   width:700px;
   margin-top:30px;}
 
+.photoBIO4 {
+    width:400px;
+    margin:30px 0px 30px 20px;}
+
 .photoAGRI1 {
   width:300px;
   margin-left:30px;
@@ -126,12 +135,6 @@ li {
   margin-bottom:20px;}
 
 .photoAGRI3 {
-  width: 500px;
-  margin-top:20px;
-  margin-bottom:20px;
-  border-radius: 10px;}
-
-.photo2designstudio2 {
   width: 500px;
   margin-top:20px;
   margin-bottom:20px;
@@ -213,13 +216,27 @@ li {
   right:20px;
   top:1200px;}
 
-.photo1designstudio2{
+  .photo1designstudio2{
+    position:relative;
+    display:flex;
+    width:500px;
+    left:30px;
+    margin-top:40px;
+    border-radius: 10px;}
+
+.photo2designstudio2{
   position:relative;
   display:flex;
   width:500px;
   left:30px;
   margin-top:40px;
   border-radius: 10px;}
+
+  .photo3designstudio2 {
+    width: 500px;
+    margin-top:20px;
+    margin-left:20px;
+    border-radius: 10px;}
 
 .photo1livingwithyourownideas{
   position:absolute;
@@ -295,5 +312,7 @@ p {
 
 .icon {
   width:20px;}
+
+.pdfview {margin:15px 0px 15px;}
 
   }
