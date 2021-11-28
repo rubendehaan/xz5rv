@@ -289,8 +289,22 @@ li {
   display:flex;
   margin:20px 0px;
   width:800px;
-  border-radius:10px;
-}
+  border-radius:10px;}
+
+.photoCE1{
+  position:relative;
+  display:flex;
+  margin:20px 0px 20px 40px;
+  width:500px;
+  border-radius:10px;}
+
+  .photoCE2{
+    position:relative;
+    display:flex;
+    margin:20px 0px;
+    width:800px;
+    border-radius:10px;}
+
 .title {
   font: Helvetica;
   font-size: xx-large;}
