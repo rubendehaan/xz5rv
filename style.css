@@ -12,10 +12,22 @@
     padding:20px 50px 20px 0px;
     display:flex;
     flex-direction:column;}
+  .photoAOWS1{
+    display:flex;
+    flex-direction: column;}
   }
 
 
   /* STYLE */
+
+  @font-face {
+    font-family: 'Messinasans-regular';
+    src: url('fonts/messinasans-regular.ttf') format('truetype');
+    src: url('fonts/messinasans-regular-webfont.woff') format('woff'),
+      url('fonts/messinasans-regular-webfont.woff2') format('woff2'),;
+    font-weight: normal;
+    font-style: normal;
+  }
 
 header{
     padding:20px;
@@ -40,14 +52,17 @@ body{
     padding: 0px 0px 0px 5% ;} 
 
 
-h1 {color:white;}
+h1 {color:white;
+  font-family:'Messinasans-regular', Helvetica, sans-serif;}
 
 h2 {padding:0px 0px 0px 0px;
     margin-bottom:0px}
 
+p2 {font-family:'Messinasans-regular', Helvetica, sans-serif;}
+
 .menu {
     text-decoration:none;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Messinasans-regular';
     color:black;}
     
 .links{
@@ -56,13 +71,13 @@ h2 {padding:0px 0px 0px 0px;
 
 .link{
     text-decoration:none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Messinasans-regular', Helvetica, sans-serif;
     color:white;
     font-weight: 900;}
     
 .link2{
       text-decoration:none;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Messinasans-regular', Helvetica, sans-serif;
       color:white;
       font-weight: 700;}
 
@@ -291,6 +306,17 @@ li {
   width:800px;
   border-radius:10px;}
 
+.columnTBTM{
+  margin-top:10px;
+  position:relative;
+  display:flex;
+  width:700px;
+  justify-content:center;
+  height:80px;
+  cursor:pointer;
+  padding-left:40px;
+  font-family:'Messinasans-regular', Helvetica, sans-serif;}
+
 .photoCE1{
   position:relative;
   display:flex;
@@ -298,7 +324,7 @@ li {
   width:500px;
   border-radius:10px;}
 
-  .photoCE2{
+ .photoCE2{
     position:relative;
     display:flex;
     margin:20px 0px;
@@ -306,30 +332,30 @@ li {
     border-radius:10px;}
 
 .title {
-  font: Helvetica;
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: large;
   margin-bottom: -15px;}
   
 .blog {
   display: inline-block;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Messinasans-regular';
   width: 500px;
   margin-left: 30px;}
 
 .blogTBTM {
   display:inline-block;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
   width:800px;}
 
 
 
 .subtitle {
-  color:rgb(204, 204, 204);
-  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(255, 255, 255);
+  font-family: 'Messinasans-regular', Helvetica, sans-serif;
   display: absolute;
   left:200px;
   margin-top:20px;
