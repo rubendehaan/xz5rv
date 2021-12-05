@@ -1,22 +1,3 @@
-/* RESPONSIVENESS */
-
-
-@media screen and (max-width: 700px) {
-  .photo {
-  display:block;
-  margin-right:150px;
-  margin-top:150px;}
-  .term1-menu {
-  display:block;}
-  .menu {
-    padding:20px 50px 20px 0px;
-    display:flex;
-    flex-direction:column;}
-  .photoAOWS1{
-    display:flex;
-    flex-direction: column;}
-  }
-
 
   /* STYLE */
 
@@ -26,133 +7,120 @@
     src: url('fonts/messinasans-regular-webfont.woff') format('woff'),
       url('fonts/messinasans-regular-webfont.woff2') format('woff2'),;
     font-weight: normal;
-    font-style: normal;
-  }
-
+    font-style: normal;}
+header .mobile {
+    display: none;}
 header{
-    padding:20px;
+    align-items:center;
+    padding:5px 0 5px 0;
     margin-bottom:5%;
     height:10%;
     background:linear-gradient(-45deg, #29a348, #05aaa2, #12607c, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     border-radius: 20px;}
-
     @keyframes gradient {
       0% {background-position: 0% 50%;}
       50% {background-position: 100% 50%;}
       100% {background-position: 0% 50%;}}
 
 
+
 body{
     background-color:black;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Messinasans-regular', Helvetica, sans-serif;
     font-size: small;
     padding: 0px 0px 0px 5% ;} 
-
-
-h1 {color:white;
+h1 {
+  color:white;
   font-family:'Messinasans-regular', Helvetica, sans-serif;}
-
-h2 {padding:0px 0px 0px 0px;
+h2 {
+  padding:0px 0px 0px 0px;
     margin-bottom:0px}
-
-p2 {font-family:'Messinasans-regular', Helvetica, sans-serif;}
-
-.menu {
-    text-decoration:none;
-    font-family:'Messinasans-regular';
-    color:black;}
-    
+h3 {
+  padding:0px;
+  margin-bottom:5px;}
+h4 {
+  margin:2px}
+p {
+    font-family:'Messinasans-regular', Helvetica, sans-serif;
+    font-size: large;
+    margin-bottom: -15px;}
+p .p2 {
+  font-family:'Messinasans-regular', Helvetica, sans-serif;}
 .links{
     text-decoration:none;
     color:gray;}
-
 .link{
     text-decoration:none;
     font-family: 'Messinasans-regular', Helvetica, sans-serif;
     color:white;
     font-weight: 900;}
-    
 .link2{
       text-decoration:none;
       font-family: 'Messinasans-regular', Helvetica, sans-serif;
       color:white;
       font-weight: 700;}
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;}
-
-
-li {
+nav ul {
+    align-items:center;
+    list-style-type:none}
+nav li {
     display: inline-block;
-    margin-left: 100px;
-    padding:0px 0px 0px 15px;}
+    margin:0 100px 0 0;
+    padding:0px;}
 
 .liTBTM {
     display: inline-block;
-    margin-left:-10px;
-}
+    margin-left:-10px;}
 .term1-menu {
   display:inline-block;
   margin-left:0px;
-  margin-right:-10px}
+  margin-right:-10px;}
 
-.photo {
+.photoPROFILE {
     width:120px;
     border-radius: 10px;
     position:absolute;
     right:20%;
     top:21%}
-
 .photoBOOT {
   width:700px;
   border-radius: 10px;
   position:absolute;
   right:20px;
   top:180px}
-
 .photoAOWS1 {
   position:absolute;
   width: 600px;
   border-radius: 10px;
   right:5%;
-  top:200px;}
-    
+  top:200px;} 
 .photoAOWS2 {
   position:absolute;
   width:700px;
   right:10px;
   top:700px;}
-
 .photoBIO1 {
   width:700px;}
-
 .photoBIO2 {
   width:700px;}
-
 .photoBIO3 {
   width:700px;
   margin-top:30px;}
-
 .photoBIO4 {
     width:400px;
     margin:30px 0px 30px 20px;}
-
 .photoAGRI1 {
   width:300px;
   margin-left:30px;
   margin-top:20px;
   margin-bottom:20px;}
-  
 .photoAGRI2 {
   width: 500px;
   margin-top:20px;
   margin-bottom:20px;}
-
 .photoAGRI3 {
   width: 500px;
   margin-top:20px;
@@ -167,7 +135,6 @@ li {
   position:absolute;
   right:10px;
   bottom:-15px;}
-
 .topic1 {
     display:flex;
     flex-direction: row;
@@ -175,7 +142,6 @@ li {
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 30px;}
-
 .topic2 {
   display:flex;
     flex-direction: row;
@@ -183,7 +149,6 @@ li {
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 30px;}
-
 .topic3 {
   display:flex;
     flex-direction: row;
@@ -191,7 +156,6 @@ li {
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 30px;}
-
 .topic4 {
   display:flex;
   flex-direction: row;
@@ -199,7 +163,6 @@ li {
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 30px;}
-
 .topic5 {
   display:flex;
   flex-direction: row;
@@ -207,7 +170,6 @@ li {
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 30px;}
-
 .topic6 {
   display:flex;
   flex-direction: row;
@@ -215,8 +177,14 @@ li {
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 30px;}
-
 .topic7 {
+  display:flex;
+  flex-direction: row;
+  width:250px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 30px;}
+.topic8 {
   display:flex;
   flex-direction: row;
   width:250px;
@@ -229,53 +197,45 @@ li {
   width:800px;
   right:20px;
   top:200px;}
-
 .photo2designstudio1{
   position:absolute;
   width:500px;
   right:20px;
   top:800px;
   border-radius:8px;}
-
 .photo3designstudio1{
   position:absolute;
   width:800px;
   right:20px;
   top:1200px;}
-
-  .photo1designstudio2{
+.photo1designstudio2{
     position:relative;
     display:flex;
     width:500px;
     left:30px;
     margin-top:40px;
     border-radius: 10px;}
-
 .photo2designstudio2{
   position:relative;
   display:flex;
   width:500px;
   margin:40px 0 40px 40px;
   border-radius: 10px;}
-
 .photo3designstudio2 {
   width: 500px;
   margin:40px 0 40px 40px;
   border-radius: 10px;}
-  
 .photo1livingwithyourownideas{
   position:absolute;
   width:400px;
   right:100px;
   top:200px;}
-
 .photo2livingwithyourownideas{
   position:relative;
   display:flex;
   width:1100px;
   align-items:center;
   margin-top:200px;}
-
 .photo3livingwithyourownideas{
   position:relative;
   display:flex;
@@ -283,29 +243,24 @@ li {
   left:0px;
   margin-top:25px;
   margin-bottom:25px;}
-
 .photoTBTM1{
   display:flex;
   flex-direction:row;
   margin:20px 0px 0px 0px;
   width:300px;
   border-radius:10px;;}
-
 .photoTBTM2{
     display:flex;
     flex-direction:row;
     margin:0px 20px;
     width:450px;
-    border-radius:10px;
-}
-
+    border-radius:10px;}
 .photoTBTM3{
   position:relative;
   display:flex;
   margin:20px 0px;
   width:800px;
   border-radius:10px;}
-
 .columnTBTM{
   margin-top:10px;
   position:relative;
@@ -315,44 +270,59 @@ li {
   height:80px;
   cursor:pointer;
   padding-left:40px;
-  font-family:'Messinasans-regular', Helvetica, sans-serif;}
-
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
+  font-size:medium;
+  color:#23d5ab;}
 .photoCE1{
   position:relative;
   display:flex;
   margin:20px 0px 20px 40px;
   width:500px;
   border-radius:10px;}
-
- .photoCE2{
+.photoCE2{
     position:relative;
     display:flex;
     margin:20px 0px;
     width:800px;
     border-radius:10px;}
-
+.photoEI1{
+      position:relative;
+      display:flex;
+      margin:20px 0px;
+      width:600px;
+      border-radius:10px;}
+.photoEI2{
+      position:relative;
+      display:flex;
+      flex-direction: row;
+      margin:20px 0px;
+      width:500px;
+      border-radius:10px;}
+.photoEI3{
+      position:relative;
+      display:flex;
+      flex-direction: row;
+      margin:20px 0px;
+      width:200px;
+      border-radius:10px;}
+.photoEI4{
+      position:relative;
+      display:flex;
+      margin:20px 0px;
+      width:700px;
+      border-radius:10px;}
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
-
-p {
-  font-family:'Messinasans-regular', Helvetica, sans-serif;
-  font-size: large;
-  margin-bottom: -15px;}
-  
 .blog {
   display: inline-block;
   font-family:'Messinasans-regular';
   width: 500px;
   margin-left: 30px;}
-
 .blogTBTM {
   display:inline-block;
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   width:800px;}
-
-
-
 .subtitle {
   color:rgb(255, 255, 255);
   font-family: 'Messinasans-regular', Helvetica, sans-serif;
@@ -360,10 +330,35 @@ p {
   left:200px;
   margin-top:20px;
   width:400px;}
-
 .icon {
   width:20px;}
+.pdfview {
+  margin:15px 0px 15px;}
+a {
+  text-decoration: none;
+  color:black;}
 
-.pdfview {margin:15px 0px 15px;}
+  /* RESPONSIVENESS */
 
-  }
+@media screen and (max-width: 800px) {
+  ul{
+    display:flex;
+    flex-direction:column;
+    margin-left:-60px}
+  header .mobile {
+    display:inline-block;
+    font-family:'Messinasans-regular';
+    background:none;
+    padding:10px;
+    margin:0}
+  header .desktop {
+    display: none;} 
+  .photoPROFILE {
+  display:none;
+  margin-right:150px;
+  margin-top:150px;}
+  .term1-menu {
+  display:flex;}
+  .photoAOWS1{
+    display:flex;
+    flex-direction: column;}}
