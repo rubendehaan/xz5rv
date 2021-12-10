@@ -289,28 +289,36 @@ nav li {
       position:relative;
       display:flex;
       margin:20px 0px;
-      width:600px;
+      width:100%;
       border-radius:10px;}
 .photoEI2{
       position:relative;
       display:flex;
-      flex-direction: row;
-      margin:20px 0px;
-      width:500px;
+      float:left;
+      margin: 10px auto;
+      width:auto;
+      height: 250px;
       border-radius:10px;}
 .photoEI3{
       position:relative;
       display:flex;
-      flex-direction: row;
-      margin:20px 0px;
-      width:200px;
+      margin:10px auto;
+      width: auto;
+      height: 250px;
       border-radius:10px;}
 .photoEI4{
       position:relative;
       display:flex;
       margin:20px 0px;
-      width:700px;
+      width:100%;
       border-radius:10px;}
+.photoEI5{
+    position:relative;
+    display:flex;
+    margin:20px 0px;
+    width:100%;
+    border-radius:10px;}
+    
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
