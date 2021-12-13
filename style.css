@@ -306,18 +306,30 @@ nav li {
       width: auto;
       height: 250px;
       border-radius:10px;}
+
+.divphotoEI4{
+        display:flex;
+        flex-direction:column;
+        align-items:center;}
 .photoEI4{
-      position:relative;
       display:flex;
+      align-items:center;
       margin:20px 0px;
-      width:100%;
-      border-radius:10px;}
+      width:115px;}
 .photoEI5{
     position:relative;
     display:flex;
-    margin:20px 0px;
+    margin:-10px 0px;
     width:100%;
     border-radius:10px;}
+
+.photoEI6{
+      position:relative;
+      display:flex;
+      margin:10px 0px;
+      width:45%;
+      border-radius:10px;}
+      
     
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
