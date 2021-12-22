@@ -232,6 +232,12 @@ nav li {
   width: 500px;
   margin:40px 0 40px 40px;
   border-radius: 10px;}
+.photo1designstudio3 {
+  position:relative;
+  display:flex;
+  margin:20px auto;
+  width: 500px;
+  height: auto;}
 .photo1livingwithyourownideas{
   position:absolute;
   width:400px;
@@ -283,9 +289,9 @@ nav li {
 .photoCE1{
   position:relative;
   display:flex;
-  margin:20px 0px 20px 40px;
-  width:500px;
-  border-radius:10px;}
+  margin:20px auto;
+  width: 800px;
+  height: auto;}
 .photoCE2{
     position:relative;
     display:flex;
@@ -293,11 +299,11 @@ nav li {
     width:800px;
     border-radius:10px;}
 .photoEI1{
-      position:relative;
-      display:flex;
-      margin:20px 0px;
-      width:100%;
-      border-radius:10px;}
+  position:relative;
+  display:flex;
+  margin:20px auto;
+  width: auto;
+  height: 300px;}
 .photoEI2{
       position:relative;
       display:flex;
@@ -313,6 +319,12 @@ nav li {
       width: auto;
       height: 250px;
       border-radius:10px;}
+.photoDD1{
+      position:relative;
+      display:flex;
+      margin:20px auto;
+      width: auto;
+      height: 250px;}
 
 .divphotoEI4{
         display:flex;
