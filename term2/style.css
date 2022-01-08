@@ -48,13 +48,13 @@ h3 {
   margin-bottom:5px;}
 h4 {
   margin:2px}
-  .container {
+.container {
     width:auto;
     display:flex;
     flex-direction:column;
     background:none;
     align-items:center;}
-  .textbox {
+.textbox {
   width:75%;
   flex-direction:column;
   background:none;
@@ -105,23 +105,30 @@ a {
   text-decoration: none;
   color:black;}
 .term2-menu {
-    display:flex;}}
+    display:flex;}
   
 
   /* RESPONSIVENESS */
 
 @media screen and (max-width: 800px) {
-  nav ul{
+nav ul{
     display:flex;
     flex-direction:column;
     margin-left:-60px}
-  header .mobile {
+header .mobile {
     display:inline-block;
     font-family:'Messinasans-regular';
     background:none;
     padding:10px;
     margin:0}
-  header .desktop {
+header .desktop {
     display: none;} 
-  .term2-menu {
-  display:flex;}}
+.term2-menu {
+  display:flex;}
+.imagebox{
+  margin:20px 0 20px 0;}
+.image{
+  width:400px;}
+.textbox{
+  width:auto}
+  }

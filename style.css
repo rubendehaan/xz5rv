@@ -23,9 +23,6 @@ header{
       0% {background-position: 0% 50%;}
       50% {background-position: 100% 50%;}
       100% {background-position: 0% 50%;}}
-
-
-
 body{
     background-color:black;
     color: white;
@@ -47,8 +44,9 @@ p {
     font-family:'Messinasans-regular', Helvetica, sans-serif;
     font-size: large;
     margin-bottom: -15px;}
-p .p2 {
-  font-family:'Messinasans-regular', Helvetica, sans-serif;}
+.p2 {
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
+  display:inline-block;}
 .links{
     text-decoration:none;
     color:gray;}
@@ -78,6 +76,10 @@ nav li {
   display:inline-block;
   margin-left:0px;
   margin-right:-10px;}
+.term2-menu {
+    display:inline-block;
+    margin-left:0px;
+    margin-right:-10px;}
 
 .photoPROFILE {
     width:120px;
@@ -86,47 +88,77 @@ nav li {
     right:20%;
     top:21%}
 .photoBOOT {
-  width:700px;
-  border-radius: 10px;
-  position:absolute;
-  right:20px;
-  top:180px}
+  position:relative;
+  display:flex;
+  margin:20px auto;
+  width: auto;
+  height: 300px;}
 .photoAOWS1 {
-  position:absolute;
-  width: 600px;
-  border-radius: 10px;
-  right:5%;
-  top:200px;} 
+  position:relative;
+  display:flex;
+  margin:20px auto;
+  width: auto;
+  height: 500px;} 
 .photoAOWS2 {
-  position:absolute;
-  width:700px;
-  right:10px;
-  top:700px;}
+  position:relative;
+  display:flex;
+  margin:40px auto;
+  width: auto;
+  height: 700px;}
 .photoBIO1 {
-  width:700px;}
+  position:relative;
+  display:flex;
+  margin:40px auto;
+  width: auto;
+  height: 250px;}
 .photoBIO2 {
-  width:700px;}
+  position:relative;
+  display:flex;
+  margin:40px auto;
+  width: auto;
+  height: 350px;}
 .photoBIO3 {
-  width:700px;
-  margin-top:30px;}
+  position:relative;
+  display:flex;
+  margin:40px auto;
+  width: auto;
+  height: 350px;}
 .photoBIO4 {
-    width:400px;
-    margin:30px 0px 30px 20px;}
+  position:relative;
+  display:flex;
+  margin:40px auto;
+  width: auto;
+  height: 200px;}
+.photoBIO5 {
+  position:relative;
+  display:flex;
+  margin:40px auto;
+  width: auto;
+  height: 200px;}
 .photoAGRI1 {
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  width:auto;
   width:300px;
-  margin-left:30px;
-  margin-top:20px;
-  margin-bottom:20px;}
+  border-radius:10px;}
 .photoAGRI2 {
-  width: 500px;
-  margin-top:20px;
-  margin-bottom:20px;}
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  width:auto;
+  width:500px;
+  border-radius:10px;}
 .photoAGRI3 {
-  width: 500px;
-  margin-top:20px;
-  margin-bottom:20px;
-  border-radius: 10px;}
-
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  width:auto;
+  width:500px;
+  border-radius:10px;}
 .label1 {
   position:absolute;
   right:10px;
@@ -200,21 +232,29 @@ nav li {
   margin-top: 30px;}
   
 .photo1designstudio1{
-  position:absolute;
-  width:800px;
-  right:20px;
-  top:200px;}
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  height:auto;
+  width:700px;
+  border-radius:10px;}
 .photo2designstudio1{
-  position:absolute;
-  width:500px;
-  right:20px;
-  top:800px;
-  border-radius:8px;}
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  height:auto;
+  width:400px;
+  border-radius:5px;}
 .photo3designstudio1{
-  position:absolute;
-  width:800px;
-  right:20px;
-  top:1200px;}
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  height:auto;
+  width:700px;
+  border-radius:10px;}
 .photo1designstudio2{
     position:relative;
     display:flex;
@@ -235,27 +275,35 @@ nav li {
 .photo1designstudio3 {
   position:relative;
   display:flex;
-  margin:20px auto;
-  width: 500px;
-  height: auto;}
+  float:center;
+  margin: 20px auto;
+  height:auto;
+  width:500px;
+  border-radius:10px;}
 .photo1livingwithyourownideas{
-  position:absolute;
-  width:400px;
-  right:100px;
-  top:200px;}
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 40px auto;
+  width:auto;
+  width:500px;
+  border-radius:10px;}
 .photo2livingwithyourownideas{
   position:relative;
   display:flex;
-  width:1100px;
-  align-items:center;
-  margin-top:200px;}
+  float:center;
+  margin: 20px auto;
+  width:auto;
+  width:1000px;
+  border-radius:10px;}
 .photo3livingwithyourownideas{
   position:relative;
   display:flex;
-  width:500px;
-  left:0px;
-  margin-top:25px;
-  margin-bottom:25px;}
+  float:center;
+  margin: 20px auto;
+  width:auto;
+  width:700px;
+  border-radius:10px;}
 .photoTBTM1{
   display:flex;
   flex-direction:row;
@@ -289,14 +337,41 @@ nav li {
 .photoCE1{
   position:relative;
   display:flex;
-  margin:20px auto;
-  width: 800px;
-  height: auto;}
+  float:center;
+  margin: 20px auto;
+  height:auto;
+  width:700px;
+  border-radius:10px;}
 .photoCE2{
     position:relative;
     display:flex;
     margin:20px 0px;
-    width:800px;
+    height:auto;
+    width:700px;
+    border-radius:10px;}
+.photoCE3{
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  width:500px;
+  height: auto;
+  border-radius:10px;}
+.photoCE4{
+  position:relative;
+  display:flex;
+  float:center;
+  margin: 20px auto;
+  width:500px;
+  height: auto;
+  border-radius:10px;}
+.photoCE5{
+    position:relative;
+    display:flex;
+    float:center;
+    margin: 20px auto;
+    width:500px;
+    height: auto;
     border-radius:10px;}
 .photoEI1{
   position:relative;
@@ -310,14 +385,15 @@ nav li {
       float:left;
       margin: 10px auto;
       width:auto;
-      height: 250px;
+      height: 220px;
       border-radius:10px;}
 .photoEI3{
       position:relative;
       display:flex;
+      float:right;
       margin:10px auto;
       width: auto;
-      height: 250px;
+      height: 220px;
       border-radius:10px;}
 .photoDD1{
       position:relative;
@@ -338,10 +414,9 @@ nav li {
 .photoEI5{
     position:relative;
     display:flex;
-    margin:-10px 0px;
+    margin:10px 0px;
     width:100%;
     border-radius:10px;}
-
 .photoEI6{
       position:relative;
       display:flex;
@@ -354,14 +429,11 @@ nav li {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
 .blog {
-  display: inline-block;
-  font-family:'Messinasans-regular';
-  width: 500px;
-  margin-left: 30px;}
-.blogTBTM {
   display:inline-block;
   font-family:'Messinasans-regular', Helvetica, sans-serif;
-  width:800px;}
+  width:700px;}
+.footer {
+  margin-top:20px;}
 .subtitle {
   color:rgb(255, 255, 255);
   font-family: 'Messinasans-regular', Helvetica, sans-serif;
@@ -392,12 +464,250 @@ a {
     margin:0}
   header .desktop {
     display: none;} 
+  .blog{
+    max-width:400px;}
   .photoPROFILE {
   display:none;
   margin-right:150px;
   margin-top:150px;}
   .term1-menu {
-  display:flex;}
+  display:flex;
+  width:100%;
+  max-width:400px;}
+  .term2-menu {
+    display:flex;}
   .photoAOWS1{
     display:flex;
-    flex-direction: column;}}
+    width:100%;
+    max-width:400px;
+    height:auto;
+    margin:10px 0 0 0;}
+  .photoAOWS2{
+    display:flex;
+    width:100%;
+    max-width:400px;
+    height:auto;
+    margin:10px 0 0 0;}
+  .photoBIO1 {
+  display:flex;
+  width:100%;
+  max-width:400px;
+  height:auto;
+  margin:10px 0 0 0;}
+  .photoBIO2 {
+    display:flex;
+    width:100%;
+    max-width:400px;
+    height:auto;
+    margin:10px 0 0 0;}
+  .photoBIO3 {
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 0 0;}
+  .photoBIO4 {
+        display:flex;
+        width:100%;
+        max-width:300px;
+        height:auto;
+        margin:20px;}
+  .photoBIO5 {
+          display:flex;
+          width:100%;
+          max-width:400px;
+          height:auto;
+          margin:10px 0 0 0;}
+  .photoAGRI2 {
+    display:flex;
+    width:100%;
+    max-width:400px;
+    height:auto;
+    margin:10px 0 0 0;}
+  .photoAGRI3 {
+    display:flex;
+    width:100%;
+    max-width:400px;
+    height:auto;
+    margin:10px 0 20px 0;}
+  .pdfview{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:400px;
+      margin:10px 0 0 0;}
+  .photo1designstudio3{
+    display:flex;
+    width:100%;
+    max-width:400px;
+    height:auto;
+    margin:10px 0 0 0;}
+  .photoDD1{
+    width:90%;
+    height:auto;}
+  
+    .photo1designstudio1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo2designstudio1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo3designstudio1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo1designstudio2{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo2designstudio2{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo3designstudio2 {
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo1livingwithyourownideas{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo2livingwithyourownideas{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photo3livingwithyourownideas{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoTBTM1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoTBTM2{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoTBTM3{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .columnTBTM{
+      margin-top:10px;
+      position:relative;
+      display:flex;
+      width:700px;
+      justify-content:center;
+      height:80px;
+      cursor:pointer;
+      padding-left:40px;
+      font-family:'Messinasans-regular', Helvetica, sans-serif;
+      font-size:medium;
+      color:#23d5ab;}
+    .photoCE1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoCE2{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoCE3{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoCE4{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoCE5{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoEI1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoEI2{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoEI3{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoDD1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    
+    .divphotoEI4{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoEI4{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoEI5{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoEI6{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+        
+  }
