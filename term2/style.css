@@ -32,8 +32,9 @@ body{
     background-color:black;
     color: white;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
-    font-size: small;
-    padding: 0px 0px 0px 5% ;} 
+    font-size: small;} 
+.bodymenu{
+    padding-left:5%;}
 h1 {
   color:white;
   font-family:'Messinasans-regular', Helvetica, sans-serif;}
@@ -60,15 +61,20 @@ h4 {
   background:none;
   display:flex;
   align-items:center;}
+  
 p {
     width:55%;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
-    font-size: medium;}
+    font-size: 14px;}
+.intro{
+  width:55%;
+  font-size:16px;
+  font-style:italic;}
 p .p2 {
   font-family:'Messinasans-regular', Helvetica, sans-serif;}
-.topic1 {
+.seminar {
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
     width:250px;
     border-radius: 10px;
     margin-right: 20px;
@@ -79,10 +85,28 @@ p .p2 {
   flex-direction:center;
   align-items:center;
   justify-content:center;}
-.image{
+.imagebig{
+  align-items:center;
+  float:center;
+  width:100%;}
+.imagemedium{
+  align-items:center;
+  float:center;
+  width:70%;}
+.imagesmall{
+  align-items:center;
+  float:center;
+  width:45%;}
+.imagesmaller{
     align-items:center;
     float:center;
-    width:80%;}
+    width:30%;}
+.tag {
+    width:auto;
+    text-align:center;
+    font-size: x-small;
+    color:lightgrey;
+    margin-bottom:80px;}
 nav ul {
     align-items:center;
     list-style-type:none;}
@@ -93,7 +117,6 @@ nav li {
 .liTBTM {
     display: inline-block;
     margin-left:-10px;}
-
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
@@ -104,8 +127,26 @@ nav li {
 a {
   text-decoration: none;
   color:black;}
-.term2-menu {
-    display:flex;}
+.term2-item{
+    display:inline-block;
+    margin-left:0px;
+    margin-right:-10px;}
+.item1{    
+    display:flex;
+    flex-direction: row;
+    width:250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 30px;}
+.item2{
+  display:flex;
+  flex-direction: row;
+  width:250px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 30px;}
+}
+}
   
 
   /* RESPONSIVENESS */

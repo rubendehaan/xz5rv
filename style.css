@@ -28,25 +28,72 @@ body{
     color: white;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
     font-size: small;
-    padding: 0px 0px 0px 5% ;} 
+    padding: 0px 0px 0px 0px ;} 
+.bodymenu{
+      padding-left:5%;
+      padding-right:5%;}
+.container {
+        width:auto;
+        display:flex;
+        flex-direction:column;
+        background:none;
+        align-items:center;}
+.textbox {
+      width:75%;
+      flex-direction:column;
+      background:none;
+      display:flex;
+      align-items:center;}
+.intro{
+      width:55%;
+      font-size:16px;
+      font-style:italic;}
+.imagebox{
+        margin:20px 0 20px 0;
+        display:flex;
+        flex-direction:center;
+        align-items:center;
+        justify-content:center;}
+.imagebig{
+        align-items:center;
+        float:center;
+        width:100%;}
+.imagemedium{
+        align-items:center;
+        float:center;
+        width:70%;}
+.imagesmall{
+        align-items:center;
+        float:center;
+        width:40%;}
+.imagesmaller{
+          align-items:center;
+          float:center;
+          width:30%;}
 h1 {
   color:white;
-  font-family:'Messinasans-regular', Helvetica, sans-serif;}
+  font-family:'Messinasans-regular', Helvetica, sans-serif;;}
 h2 {
   padding:0px 0px 0px 0px;
-    margin-bottom:0px}
+    margin-bottom:0px;}
 h3 {
   padding:0px;
   margin-bottom:5px;}
 h4 {
   margin:2px}
 p {
+    width:55%;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
-    font-size: large;
-    margin-bottom: -15px;}
-.p2 {
-  font-family:'Messinasans-regular', Helvetica, sans-serif;
-  display:inline-block;}
+    font-size: 14px;}
+p .p2 {
+  font-family:'Messinasans-regular', Helvetica, sans-serif;}
+
+.tag {
+  width:auto;
+  text-align:center;
+  font-size: x-small;
+  color:lightgrey;
+  margin-bottom:80px;}
 .links{
     text-decoration:none;
     color:gray;}
@@ -92,7 +139,7 @@ nav li {
   display:flex;
   margin:20px auto;
   width: auto;
-  height: 300px;}
+  height: 350px;}
 .photoAOWS1 {
   position:relative;
   display:flex;
@@ -245,8 +292,7 @@ nav li {
   float:center;
   margin: 20px auto;
   height:auto;
-  width:400px;
-  border-radius:5px;}
+  width:400px;}
 .photo3designstudio1{
   position:relative;
   display:flex;
@@ -255,13 +301,7 @@ nav li {
   height:auto;
   width:700px;
   border-radius:10px;}
-.photo1designstudio2{
-    position:relative;
-    display:flex;
-    width:500px;
-    left:30px;
-    margin-top:40px;
-    border-radius: 10px;}
+
 .photo2designstudio2{
   position:relative;
   display:flex;
@@ -276,7 +316,7 @@ nav li {
   position:relative;
   display:flex;
   float:center;
-  margin: 20px auto;
+  margin: 40px auto;
   height:auto;
   width:500px;
   border-radius:10px;}
@@ -286,7 +326,7 @@ nav li {
   float:center;
   margin: 40px auto;
   width:auto;
-  width:500px;
+  width:400px;
   border-radius:10px;}
 .photo2livingwithyourownideas{
   position:relative;
@@ -323,17 +363,16 @@ nav li {
   width:800px;
   border-radius:10px;}
 .columnTBTM{
-  margin-top:10px;
-  position:relative;
-  display:flex;
-  width:700px;
-  justify-content:center;
-  height:80px;
-  cursor:pointer;
-  padding-left:40px;
   font-family:'Messinasans-regular', Helvetica, sans-serif;
-  font-size:medium;
-  color:#23d5ab;}
+  color:#23d5ab;
+  width:100%;
+  height:auto;
+  flex-direction:column;
+  background:none;
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+  margin:20px 0 20px 0;}
 .photoCE1{
   position:relative;
   display:flex;
@@ -373,6 +412,13 @@ nav li {
     width:500px;
     height: auto;
     border-radius:10px;}
+.photoCE6{
+    position:relative;
+    display:flex;
+    float:center;
+    margin: 20px auto;
+    width:500px;
+    height: auto;}
 .photoEI1{
   position:relative;
   display:flex;
@@ -401,6 +447,36 @@ nav li {
       margin:20px auto;
       width: auto;
       height: 250px;}
+.photoDD2{
+        position:relative;
+        display:flex;
+        margin:20px auto;
+        width: 350px;
+        height:auto;}
+.photoDD3{
+        position:relative;
+        display:flex;
+        margin:20px auto;
+        width: 500px;
+        height:auto;}
+.photoDD4{
+        position:relative;
+        display:flex;
+        margin: 20px auto;
+        width: 500px;
+        height:auto;}
+.photoDD5{
+        position:relative;
+        display:flex;
+        margin:20px auto;
+        width: 700px;
+        height:auto;}
+.photoDD6{
+        position:relative;
+        display:flex;
+        margin:20px auto;
+        width: 500px;
+        height:auto;}
 
 .divphotoEI4{
         display:flex;
@@ -432,15 +508,13 @@ nav li {
   display:inline-block;
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   width:700px;}
-.footer {
-  margin-top:20px;}
+
 .subtitle {
   color:rgb(255, 255, 255);
   font-family: 'Messinasans-regular', Helvetica, sans-serif;
-  display: absolute;
+  display: flex;
   left:200px;
-  margin-top:20px;
-  width:400px;}
+  width:auto;}
 .icon {
   width:20px;}
 .pdfview {
@@ -476,6 +550,12 @@ a {
   max-width:400px;}
   .term2-menu {
     display:flex;}
+  .imagebox{
+      margin:20px 0 20px 0;}
+  .image{
+      width:400px;}
+  .textbox{
+      width:auto}
   .photoAOWS1{
     display:flex;
     width:100%;
@@ -542,9 +622,7 @@ a {
     max-width:400px;
     height:auto;
     margin:10px 0 0 0;}
-  .photoDD1{
-    width:90%;
-    height:auto;}
+
   
     .photo1designstudio1{
       display:flex;
@@ -679,6 +757,24 @@ a {
       height:auto;
       margin:10px 0 20px 0;}
     .photoDD1{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoDD2{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoDD3{
+      display:flex;
+      width:100%;
+      max-width:400px;
+      height:auto;
+      margin:10px 0 20px 0;}
+    .photoDD4{
       display:flex;
       width:100%;
       max-width:400px;
