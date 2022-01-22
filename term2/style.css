@@ -23,11 +23,6 @@ header{
       0% {background-position: 0% 50%;}
       50% {background-position: 100% 50%;}
       100% {background-position: 0% 50%;}}
-.link{
-    text-decoration:none;
-    font-family: 'Messinasans-regular', Helvetica, sans-serif;
-    color:white;
-    font-weight: 900;}
 body{
     background-color:black;
     color: white;
@@ -35,6 +30,14 @@ body{
     font-size: small;} 
 .bodymenu{
     padding-left:5%;}
+.bodybox{
+    padding:0 5% 0 5%;
+    align-content: center;}
+.link{
+    text-decoration:none;
+    font-family: 'Messinasans-regular', Helvetica, sans-serif;
+    color:white;
+    font-weight: 900;}
 h1 {
   color:white;
   font-family:'Messinasans-regular', Helvetica, sans-serif;}
@@ -61,7 +64,6 @@ h4 {
   background:none;
   display:flex;
   align-items:center;}
-  
 p {
     width:55%;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
@@ -145,8 +147,8 @@ a {
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 30px;}
-}
-}
+
+
   
 
   /* RESPONSIVENESS */
@@ -164,12 +166,33 @@ header .mobile {
     margin:0}
 header .desktop {
     display: none;} 
-.term2-menu {
-  display:flex;}
+.term2-item {
+  display:flex;
+  align-items: center;
+  justify-content: center;}
 .imagebox{
+  width:auto;
   margin:20px 0 20px 0;}
-.image{
-  width:400px;}
+.imagesmaller{
+  width:300px;
+  height:auto;}
+.imagesmall{
+  width:100%;
+  height:auto;}
+.imagemedium{
+    width:100%;
+    height:auto;}
+.imagebig{
+  width:100%;
+  height:auto;}
+.container{
+  padding:0 5% 0 5%;
+  width:100%;}
 .textbox{
-  width:auto}
+  width:auto;
+  padding:0 5% 0 5%;}
+p {
+    width:auto;}
+.intro {
+  width:auto;}
   }
