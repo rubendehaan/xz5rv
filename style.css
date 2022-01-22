@@ -123,13 +123,6 @@ nav li {
   display:inline-block;
   margin-left:0px;
   margin-right:-10px;}
-
-.photoPROFILE {
-    width:120px;
-    border-radius: 10px;
-    position:absolute;
-    right:20%;
-    top:21%}
 .label1 {
   position:absolute;
   right:10px;
@@ -216,7 +209,9 @@ nav li {
   margin:20px 0 20px 0;}
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
-  font-size: xx-large;}
+  font-size: xx-large;
+  font-weight:900;
+  margin:0 0 -10px 0}
 .blog {
   display:inline-block;
   font-family:'Messinasans-regular', Helvetica, sans-serif;
@@ -250,10 +245,6 @@ a {
     margin:0}
   header .desktop {
     display: none;} 
-  .photoPROFILE {
-  display:none;
-  margin-right:150px;
-  margin-top:150px;}
   .term1-item {
     display:flex;
     align-items: center;
