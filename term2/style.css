@@ -72,6 +72,9 @@ p {
   width:55%;
   font-size:16px;
   font-style:italic;}
+.centeredtext{
+  text-align: center;
+}
 p .p2 {
   font-family:'Messinasans-regular', Helvetica, sans-serif;}
 .seminar {
@@ -109,6 +112,9 @@ p .p2 {
     font-size: x-small;
     color:lightgrey;
     margin-bottom:80px;}
+.sum {
+  margin:-2px 0 0 0;
+  width:40%;}
 nav ul {
     align-items:center;
     list-style-type:none;}
