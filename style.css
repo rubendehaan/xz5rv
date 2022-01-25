@@ -39,6 +39,14 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto 120%;}
+.fiverr{
+  position:absolute;
+  bottom:5px;
+  right:5px;}
+.imagefiverr{
+  display:flex;
+  float:right;
+  width:50%;}
 .container {
         width:auto;
         display:flex;
@@ -293,6 +301,8 @@ a {
   .imagebig{
     width:100%;
     height:auto;}
+  .imagefiverr{
+    display:none;}
   .container{
     padding:0 5% 0 5%;
     width:100%;}
