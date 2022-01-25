@@ -18,7 +18,7 @@ header{
     background:linear-gradient(-45deg, #070c58, #0b7ce6, #0e307a, #76c1ff);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    border-radius: 20px;}
+    border-radius: 0 0 20px 20px;}
     @keyframes gradient {
       0% {background-position: 0% 50%;}
       50% {background-position: 100% 50%;}
@@ -139,20 +139,14 @@ a {
     display:inline-block;
     margin-left:0px;
     margin-right:-10px;}
-.item1{    
+.item{    
     display:flex;
     flex-direction: row;
     width:250px;
     border-radius: 10px;
     margin-right: 20px;
     margin-top: 30px;}
-.item2{
-  display:flex;
-  flex-direction: row;
-  width:250px;
-  border-radius: 10px;
-  margin-right: 20px;
-  margin-top: 30px;}
+
 
 
   

@@ -17,12 +17,14 @@ header{
     height:10%;
     background:linear-gradient(-45deg, #29a348, #05aaa2, #12607c, #23d5ab);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-    border-radius: 20px;}
+    border-radius:0 0 20px 20px;
+    animation: gradient 10s ease infinite;}
     @keyframes gradient {
       0% {background-position: 0% 50%;}
       50% {background-position: 100% 50%;}
       100% {background-position: 0% 50%;}}
+.home{
+  background:none;}
 body{
     background-color:black;
     color: white;
@@ -32,6 +34,11 @@ body{
 .bodymenu{
       padding-left:5%;
       padding-right:5%;}
+.bodybackground{
+  background-image: url('images/peace2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 120%;}
 .container {
         width:auto;
         display:flex;
@@ -110,7 +117,7 @@ p .p2 {
 
 nav ul {
     align-items:center;
-    list-style-type:none}
+    list-style-type:none;}
 nav li {
     display: inline-block;
     margin:0 100px 0 0;
@@ -229,6 +236,9 @@ nav li {
 a {
   text-decoration: none;
   color:black;}
+.a-home{
+  color:white;
+}
 
   /* RESPONSIVENESS */
 
@@ -249,6 +259,9 @@ a {
     display:flex;
     align-items: center;
     justify-content: center;}
+  .bodybackground{
+    background-image: url('images/peace2.jpg');
+    background-size: auto 100%;}
   nav ul{
       display:flex;
       flex-direction:column;
@@ -260,7 +273,7 @@ a {
       padding:10px;
       margin:0}
   header .desktop {
-      display: none;} 
+      display: none;;} 
   .term1-item {
     display:flex;
     align-items: center;
