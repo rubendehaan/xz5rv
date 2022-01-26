@@ -15,7 +15,7 @@ header{
     padding:5px 0 5px 0;
     margin-bottom:5%;
     height:10%;
-    background:linear-gradient(-45deg, #070c58, #0b7ce6, #0e307a, #76c1ff);
+    background:linear-gradient(-45deg, red, darkred, red, pink);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     border-radius: 0 0 20px 20px;}
@@ -134,10 +134,6 @@ nav li {
 a {
   text-decoration: none;
   color:black;}
-.term2-item{
-    display:inline-block;
-    margin-left:0px;
-    margin-right:-10px;}
 .fab-item{
     display:inline-block;
     margin-left:0px;
@@ -151,7 +147,13 @@ a {
     margin-top: 30px;}
 .a-home{
       color:black;}
-
+footer{
+  margin: 30px 0 0 0;
+  align-items:center;
+  text-align:  center;
+  color:darkgrey;
+  font-size: smaller;
+}
 
 
   
