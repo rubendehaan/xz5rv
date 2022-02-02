@@ -72,7 +72,7 @@ body{
 .imagebig{
         align-items:center;
         float:center;
-        width:100%;}
+        width:80%;}
 .imagemedium{
         align-items:center;
         float:center;
@@ -235,8 +235,8 @@ nav li {
   color:rgb(255, 255, 255);
   font-family: 'Messinasans-regular', Helvetica, sans-serif;
   display: flex;
-  left:200px;
-  width:auto;}
+  left:10%;
+  width:250px;}
 .icon {
   width:20px;}
 .pdfview {
