@@ -38,6 +38,10 @@ body{
     font-family: 'Messinasans-regular', Helvetica, sans-serif;
     color:white;
     font-weight: 900;}
+.link-icon{
+    width:10px;
+    height:auto;
+    margin:0px 5px 5px 5px;}
 h1 {
   color:white;
   font-family:'Messinasans-regular', Helvetica, sans-serif;}

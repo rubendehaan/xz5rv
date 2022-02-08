@@ -65,6 +65,7 @@ h4 {
   display:flex;
   align-items:center;}
 .boundbox {
+  margin:40px 0 20px 0;
   border: 1px solid white;}
 .boundtext {
   margin:8px 25px 8px 25px;}
