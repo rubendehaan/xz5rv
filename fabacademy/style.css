@@ -211,4 +211,8 @@ p {
     width:auto;}
 .intro {
   width:auto;}
+  .fab-item {
+    display:flex;
+    align-items: center;
+    justify-content: center;}
   }
