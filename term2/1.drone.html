@@ -39,17 +39,21 @@
           </div>  
 
             
-            <div class="imagebox"> <img src="../images/droneschematics.png" class="imagemedium"></div>
-            <div class="tag"><p3><i>figure 1:</i> Schematic overview of drone hardware and cicuitry.</p3></div>
+            <div class="imagebox"> <img src="images/droneschematics.png" class="imagemedium"></div>
+            <div class="tag"><p3><i>figure 1:</i> First schematic overview of the drone hardware and cicuitry.</p3></div>
         <div  class="textbox">
             <h3>
               Timeline:
             </h3> 
             <p> 
               <ul>
-                <li>October 21: Functional test passed of first quarter of the EMC/rotor/motor assembly.</li>
+                <li>October 21: First circuitry setup.</li>
+                <li>October 21: Functional test failed of first quarter of the EMC/rotor/motor assembly.</li>
                 <li>December 21: Frame, RC-transmitter and RC-receiver inventarized.</li>
                 <li>March 1: Discussion with Eduardo on initial soft- and hardware setup.</li>
+                <li>March 6: Second circuitry setup.</li>
+                <li>March 8: Functional test failed of first quarter of the EMC/rotor/motor assembly.</li>
+                <li>March 8: Gyroscope and Cleanflight configurator setup running.</li>
               </ul>
 
             </p>
@@ -76,17 +80,24 @@
               
           </p>
         </div>
-        <div class="imagebox"><img class="imagenormal" src="images/droneparts.png"></div>
+        <div class="imagebox"><img class="imagebig" src="images/droneparts.png"></div>
+        <div class="tag"><p3><i>figure 2:</i> Parts of the initial drone setup.</p3></div>
 
         <div class="textbox">
           <p>
-            The connection cross-pieces did not directly fit onto the frame and needed some adjustment.
+            At first the ESC-motor combination did not function properly. I ran the assembly through a 5 VDC power supply but only got a brief momentary action.
+            
+            Betaflight did not support the older firmware of the Naze34 flight controlling board. When ran through a different configurator called Cleanflight, the movement of the gyroscope gave correct feedback on all three (X,Y,Z) axles but still without
+            activity of the motor.
+            
+          
 
           </p>
         </div>
 
 
-
+        <div class="imagebox"> <img src="images/droneschematics2.png" class="imagemedium"></div>
+        <div class="tag"><p3><i>figure 3:</i> Second schematic overview of the drone hardware and cicuitry.</p3></div>
 
 
       </div>
@@ -95,11 +106,11 @@
       <footer>
 
         <p2>
-          Links: <a class="link" href="https://www.p5js.org">p5.js</a>,
-          <a class="link" href="https://github.com/rubendehaan/fabchallenge1"> Challenge's repo</a><br>
-          Created on: November 10th, 2021<br>
-          Edited on: March 3rd, 2022<br>
-          By Ruben de Haan
+          Links: <a class="link" href="https://www.oscarliang.com">Oscarliang</a>, <a class="link" href="https://pixhawk.org/">Pixhawk</a>
+          <a class="link" href="https://store.arduino.cc/collections/motors-servos/products/circuitmess-wheelson"> CircuitMess Wheelson</a><br>
+          Created on: October 21th, 2021<br>
+          Edited on: March 8th, 2022<br>
+          by Ruben de Haan
           </p2>
       </footer>
         

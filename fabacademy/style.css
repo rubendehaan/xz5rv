@@ -65,13 +65,15 @@ h4 {
   display:flex;
   align-items:center;}
 .boundbox {
-  border: 1px solid white;
+  text-align: center;
   align-items: center;
   justify-content: center;
-  padding:10px;
-  width:10%;}
+  width:25%;
+  margin:0 20% 0 20%;}
 .boundtext {
-  margin:2% 20% 2% 20%;
+  padding:10px 0 10px 0;
+  border: 1px solid white;
+  width:100%;
   text-align: center;}
 p {
     width:55%;
@@ -130,16 +132,11 @@ nav li {
     display: inline-block;
     margin:0 100px 0 0;
     padding:0px;}
-.liTBTM {
-    display: inline-block;
-    margin-left:-10px;}
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
 .icon {
   width:20px;}
-.pdfview {
-  margin:15px 0px 15px;}
 a {
   text-decoration: none;
   color:black;}
