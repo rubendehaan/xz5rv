@@ -40,7 +40,7 @@
         </p>
         <div class="boundbox">
           <p class="boundtext">Electronic components</p>       
-          </div>
+        </div>
         
         <p>
           Eduardo gave a short description on electronic components starting off with types of resistors including
@@ -50,7 +50,9 @@
   
 
         </p>
+
         </div>
+
         <div class="imagebox"><img class="imagesmall" src="images/resistorcolor.png"></div>
         <div class="imagebox"><img src="images/partresistor.png" class="imagesmall"></div>
 
@@ -98,56 +100,108 @@
           Josep forwarded us some libraries with popular PCB configurations which can be found on KiCad.
         </p>
 
-      </div>
-      <div class="imagebox"><img src="images/kicad.JPG" class="imagesmall"></div>
-      <div class="tag"><p3><i>figure 1:</i> KiCad interface.</p3></div>
-
-      <div class="textbox">
-      <p>
-        With the 'fab.pretty' and additional libraries installed we drew and tagged our first sketch including a Adafruit Feather ESP32.
-      </p>
-    </div>
-      <div class="imagebox"><img src="images/kicad2.JPG" class="imagesmall"></div>
-      <div class="tag"><p3><i>figure 2:</i> KiCad example worked on in class. </p3></div>
-
-      <div class="imagebox"><img src="images/droneschematic1.png" class="imagemedium"></div>
-      <div class="tag"><p3><i>figure 3:</i> Circuitry setup for drone project. </p3></div>
-
-
-
-      <div class="boundbox">
-        <p class="boundtext">Computer Controlled Milling</p>      
         </div>
+      
+        <div class="imagebox"><img src="images/kicad.JPG" class="imagesmall"></div>
+        <div class="tag"><p3><i>figure 1:</i> KiCad interface.</p3></div>
+
         <div class="textbox">
           <p>
-            Theory of CCM started off with Eduardo explaining how the workflow of designing and manufacturing in CAD has not change much since Boeing started its principle in the late 1960's.
-            Easel CNC software. In CNC milling the process starts with a large volume which is substracted by a two axis fast rotating drill. In a five (+) axis CNC milling machine the product itself is CNC coordinated as well.
-            The main reasoning for Computer Controlled Milling is automation. Repeatability is an important factor in mass production of CCM and means its variation in trying to create an identical result multiple times.
-            All machines have a certain accuracy which reduces over time due to wear (stretch in the timing belts and/or wear of the cutting bits). The motor that holds the cutting bit is either a common, relatively cheap and upgradable router or a quiter, more powerful - but expensive - spindle.
-            Due to the cutting bit's diameter sharp (90°) internal angles are not feasible.
-            Straightcut (±20€ pp), upcut (±30€ pp), downcut (±60€ pp) and compressed cut (±100€ pp)
-
+            With the 'fab.pretty' and additional libraries installed we drew and tagged our first sketch including a Adafruit Feather ESP32.
           </p>
-
-          <p>Easel is a CNC-software from Inventables. Josep gave an explaination on setting up a file imported from Rhino.</p>
-        <ul> Specifications included:
-          <li>Feed rate: 3800 mm/min</li>
-          <li>Plunge rate: 2000 mm/min</li>
-          <li>Depth per pass: 3 mm</li>
-          <li>Spindle speed (RPM): 18000</li>
-        </ul>
-        <p>This results in an ouput as G-code that can be read and executed by the CNC-cutter.</p>
         </div>
+        <div class="imagebox"><img src="images/kicad2.JPG" class="imagesmall"></div>
+        <div class="tag"><p3><i>figure 2:</i> KiCad example worked on in class. </p3></div>
+
+        <div class="imagebox"><img src="images/droneschematic1.png" class="imagemedium"></div>
+        <div class="tag"><p3><i>figure 3:</i> Circuitry setup for drone project. </p3></div>
+
+
+
+        <div class="boundbox">
+          <p class="boundtext">Computer Controlled Milling</p>      
+        </div>
+        <div class="textbox">
+            <p>
+              Theory of CCM started off with Eduardo explaining how the workflow of designing and manufacturing in CAD has not change much since Boeing started its principle in the late 1960's.
+              Easel CNC software. In CNC milling the process starts with a large volume which is substracted by a two axis fast rotating drill. In a five (+) axis CNC milling machine the product itself is CNC coordinated as well.
+              The main reasoning for Computer Controlled Milling is automation. Repeatability is an important factor in mass production of CCM and means its variation in trying to create an identical result multiple times.
+              All machines have a certain accuracy which reduces over time due to wear (stretch in the timing belts and/or wear of the cutting bits). The motor that holds the cutting bit is either a common, relatively cheap and upgradable router or a quiter, more powerful - but expensive - spindle.
+              Due to the cutting bit's diameter sharp (90°) internal angles are not feasible.
+              Straightcut (±20€ pp), upcut (±30€ pp), downcut (±60€ pp) and compressed cut (±100€ pp)
+
+            </p>
+            <p>
+            Easel is a CNC-software from Inventables. Josep gave an explaination on setting up a file imported from Rhino.
+            </p>
+            <ul> 
+              Specifications included:
+              <li>Feed rate: 3800 mm/min</li>
+              <li>Plunge rate: 2000 mm/min</li>
+              <li>Depth per pass: 3 mm</li>
+              <li>Spindle speed (RPM): 18000</li>
+            </ul>
+            <p>
+              This results in an ouput as G-code that can be read and executed by the CNC-cutter.
+            </p>
+        </div>
+
         <div class="imagebox"><img src="images/cuttingradii.png" class="imagesmall"></div>
         <div class="imagebox"><img src="images/cuttingbits.png" class="imagesmall"></div>
         <div class="imagebox"><img src="images/cuttingdirection.png" class="imagesmall"></div>
-    </div>
-    <div class="tag"><p3><i>figure 2:</i> Specifications on CCM.</p3></div>
+        <div class="tag"><p3><i>figure 4:</i> Specifications on CCM.</p3></div>
+        
+        
+        
+        <div class="boundbox">
+          <p class="boundtext">Computers</p>      
+        </div>
+        <div class="textbox">
+            <p>
+              'How to make a computer'. Viktor presented us an introduction to digital electronics by first downsizing this concept to
+              a mechanical computational system. Instead of perceiving a computer as a magical black box, we can understand its functionality
+              as combined calculations. Viktor explained the main difference between analog and digital as continuity. Analog output data is fluid while digital output data is discrete/distinct.
+              (combined) Transistors allow combinational circuits that give certain output at a specific input. 
+              Their main functionality in this is to multiply or switch.
+              With transistors storing a certain state creating electronics with a 'memory'.  
+              Through the years technology precisioned allowing to have these transistors on nano scale creating microcontrolling chips.           
+              </p>
+   
+   
+        </div>
+        <div class="imagebox"><img src="images/anadigi.png" class="imagesmall"></div>
+        <div class="tag"><p3><i>figure 5:</i> Difference between analog and digital signalling.</p3></div>
+
+        <div class="textbox">
+        <p>
+          Combining these into more and more complex systems creates electronic architecture on smaller and smaller scale.    
+          The commodor 64 released in the 90's had 64.000 bits of memory (i.e. transistor functionalities).   
+          </p>
+          <p>
+          
+          A few decades later the Raspberry Pi Zero (released in 2017) allows 512.000.000 bits (512MB) of memory throught its SoC (=System on a Chip).
+          The main difference between operating a PC and programming a Arduino is the lack of a managing operative system (e.g. iOS, Windows, Linux) on the latter. 
+          Programming a Arduino is more direct therefore (bare-metal). Computational functions work in loops. The clock speed of these circulations is defined in Hertz.
+          In modern computers quartz crystals create these frequencies.
+          </p>
+          <p>
+            From ideas to code. If one wants to transform an idea to hardware there are several layers one has to pass through.
+          </p>
+        </div>
+        <div class="imagebox"><img src="images/languagelayers.png" class="imagesmall"></div>
+        <div class="tag"><p3><i>figure 6:</i> Layering of languages from human to machine.</p3></div>
+
+
+
+
+
+
+      </div>
 
       <footer>
         Links: <a class="link" href="https://www.digikey.com/">Digikey</a>, <a class="link" href="https://github.com/dkt147/PCB/blob/master/PCB.py/"> PCB.py</a>, <a href="https://www.inventables.com/technologies/easel" class="link">Easel</a><br>
         Created on: March 2nd, 2022<br>
-        Edited on: March 9th, 2022<br>
+        Edited on: March 16th, 2022<br>
         By Ruben de Haan
       </footer>
     </body>

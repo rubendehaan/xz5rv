@@ -48,12 +48,19 @@
             <p> 
               <ul>
                 <li>October 21: First circuitry setup.</li>
-                <li>October 21: Functional test failed of first quarter of the EMC/rotor/motor assembly.</li>
+                <li>October 21: Functional test failed of first quarter of the ESC/rotor/motor assembly.</li>
                 <li>December 21: Frame, RC-transmitter and RC-receiver inventarized.</li>
                 <li>March 1: Discussion with Eduardo on initial soft- and hardware setup.</li>
                 <li>March 6: Second circuitry setup.</li>
-                <li>March 8: Functional test failed of first quarter of the EMC/rotor/motor assembly.</li>
+                <li>March 8: Functional test failed of first quarter of the ESC/rotor/motor assembly.</li>
                 <li>March 8: Gyroscope and Cleanflight configurator setup running.</li>
+                <li>March 11: MRAC Multispectral Cognification presentation on autonomous mapping with drones.</li>
+                <li>March 12: ESC/rotor/motor assembly v2 and battery inventarized.</li>
+                <li>March 14: ESC/rotor/motor assembly v2 soldered and prepared.</li>
+                <li>March 14: Power Distribution Board (PDB).</li>
+                <li>March 15: Functional test succeeded: all ESC's + motors working properly.</li>
+                <li>March 15: Battery needs additional XT60 connector pieces.</li>
+              
               </ul>
 
             </p>
@@ -76,11 +83,12 @@
                 </h3>
                 <p>
               When showing the draft of the circuitry Eduardo provided some reference materials and suggested to swap the Arduino Uno with a Naze32 flight controlling unit which
-              he had available to apply in this setup.
+              he had available to apply in this setup. He explained that the Arduino would largely limit the flight functioning and picking a more common board would ease the customization in case of later
+              configurations for more specific applications. 
               
           </p>
         </div>
-        <div class="imagebox"><img class="imagebig" src="images/droneparts.png"></div>
+        <div class="imagebox"><img src="images/droneparts1.png" class="imagemedium"></div>
         <div class="tag"><p3><i>figure 2:</i> Parts of the initial drone setup.</p3></div>
 
         <div class="textbox">
@@ -88,7 +96,8 @@
             At first the ESC-motor combination did not function properly. I ran the assembly through a 5 VDC power supply but only got a brief momentary action.
             
             Betaflight did not support the older firmware of the Naze34 flight controlling board. When ran through a different configurator called Cleanflight, the movement of the gyroscope gave correct feedback on all three (X,Y,Z) axles but still without
-            activity of the motor.
+            activity of the motor. Basically all components needed to be inventarized before running any first functional test.
+             
             
           
 
@@ -98,6 +107,32 @@
 
         <div class="imagebox"> <img src="images/droneschematics2.png" class="imagemedium"></div>
         <div class="tag"><p3><i>figure 3:</i> Second schematic overview of the drone hardware and cicuitry.</p3></div>
+        
+        <div class="textbox">
+          <p>
+            The parts seemed to be in-tune which each other compared to the reference setups I had.
+            However I still wasn't sure about the wiring and connections. The reason for this is because
+            the battery had 12AWG (international index for wire diameters) wire, the motors 20AWG and ESC's 16AWG.
+            These differences could physically be evened out with either soldering or connectors but could cause some strange transistions in electric resistance.
+            
+          </p>
+        </div>
+
+
+        <div class="imagebox"> <img src="images/droneschematics3.png" class="imagemedium"></div>
+        <div class="tag"><p3><i>figure 4:</i> PDB added to the circuitry.</p3></div>
+
+
+
+        <div class="imagebox"> <img src="images/droneparts2.png" class="imagemedium"></div>
+        <div class="tag"><p3><i>figure 5:</i> Second iteration with parts compatible with the revised flight controller.</p3></div>
+
+
+        <div class="textbox">
+          <p>
+              Big thanks to Fablab BCN.
+          </p>
+        </div>
 
 
       </div>
@@ -109,7 +144,7 @@
           Links: <a class="link" href="https://www.oscarliang.com">Oscarliang</a>, <a class="link" href="https://pixhawk.org/">Pixhawk</a>
           <a class="link" href="https://store.arduino.cc/collections/motors-servos/products/circuitmess-wheelson"> CircuitMess Wheelson</a><br>
           Created on: October 21th, 2021<br>
-          Edited on: March 8th, 2022<br>
+          Edited on: March 15th, 2022<br>
           by Ruben de Haan
           </p2>
       </footer>

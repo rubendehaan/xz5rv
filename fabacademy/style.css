@@ -27,7 +27,8 @@ body{
     background-color:black;
     color: white;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
-    font-size: small;} 
+    font-size: small;
+    cursor:crosshair} 
 .bodymenu{
     padding-left:5%;}
 .bodybox{
