@@ -115,9 +115,12 @@ p .p2 {
     font-size: x-small;
     color:lightgrey;
     margin-bottom:80px;}
+.dotlist{display:flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;}
 .sum {
-  margin:-2px 0 0 0;
-  width:40%;}
+  width:50%;}
 nav ul {
     align-items:center;
     list-style-type:none;}
