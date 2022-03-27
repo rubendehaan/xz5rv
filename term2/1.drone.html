@@ -65,6 +65,11 @@
                 <li>March 17: Functional test succeeded: transmitter-receiver working properly.</li>
                 <li>March 17: Cleanflight configuration setup adjusted.</li>
                 <li>March 23: Functional test failed: inbalanced motors, standard value too low (±1200).</li>
+                <li>March 26: Functional test failed: insufficient propulsion.   </li>
+                <li>March 26: Battery completely drained: net output voltage ±5V. Charging station refuses/enters safety prevention.</li>
+                <li>March 26: Charging station manipulated to NiCd-charging settings. Battery charged.</li>
+                <li>March 26: Functional test succeeded: motors operational, balancing incorrect. No floating state.</li>
+
               </ul>
 
             </p>
@@ -136,19 +141,32 @@
           <p>
             Main focus at this point is to get a calibrated connection between the receiver and transmitter with the battery in place.
             The connector of the receiver was wrongly connected at first causing no processing of the transmitter's signalling. 
+            With this corrected, the joystick- and switches movements were being interpreted by the receiver, configured through the Naze32 and fed by the ESC's to motor movement.
           </p>
-          
+
+          <p>
+            To get a proper functioning and controlable setup the motor should have enough propulsion to carry itself and take off. To reach this state 
+            I had to go through a series of test flights and see how to interact with the controls.
+          </p>
+        <h3>
+          Applications:
+        </h3>
+      </div>
+
+        <div class="imagebox"> <img src="images/droneappli1.png" class="imagemedium"></div>
+        <div class="tag"><p3><i>figure 6:</i> PDB and XT60 battery connector added to the circuitry.</p3></div>
+
+
+        <div class="textbox">
           <p>
               Big thanks to Eduardo and Adai from Fablab BCN.
           </p>
 
 
 
-          <h3>
-            Applications:
-          </h3>
-        </div>
 
+
+        </div>
 
       </div>
    
@@ -160,7 +178,7 @@
           <a class="link" href="https://store.arduino.cc/collections/motors-servos/products/circuitmess-wheelson"> CircuitMess Wheelson</a>,
           <a class="link" href="https://blog.dronetrest.com/flysky-radio-setup/"> Firesky setup</a><br>
           Created on: October 21th, 2021<br>
-          Edited on: March 17th, 2022<br>
+          Edited on: March 26th, 2022<br>
           by Ruben de Haan
           </p2>
       </footer>

@@ -1,0 +1,225 @@
+
+  /* STYLE */
+
+  @font-face {
+    font-family: 'Messinasans-regular';
+    src: url('../fonts/messinasans-regular.ttf') format('truetype');
+    src: url('../fonts/messinasans-regular-webfont.woff') format('woff'),
+      url('../fonts/messinasans-regular-webfont.woff2') format('woff2'),;
+    font-weight: normal;
+    font-style: normal;}
+header .mobile {
+    display: none;}
+header{
+    align-items:center;
+    padding:5px 0 5px 0;
+    margin-bottom:5%;
+    height:10%;
+    background:linear-gradient(-45deg, #00FF00, #46a52a, #53a81a, #2e4729);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    border-radius: 0 0 20px 20px;}
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}}
+body{
+    background-color:black;
+    color: white;
+    font-family:'Messinasans-regular', Helvetica, sans-serif;
+    font-size: small;} 
+.bodymenu{
+    padding-left:5%;}
+.bodybox{
+    padding:0 5% 0 5%;
+    align-content: center;}
+.link{
+    text-decoration:none;
+    font-family: 'Messinasans-regular', Helvetica, sans-serif;
+    color:white;
+    font-weight: 900;}
+.link-icon{
+    width:10px;
+    height:auto;
+    margin:0px 5px 5px 5px;}
+h1 {
+  color:white;
+  font-family:'Messinasans-regular', Helvetica, sans-serif;}
+h2 {
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
+  text-align:center;
+    font-size: xx-large;
+    padding:0px 0px 20px 0px;
+    margin-bottom:0px}
+h3 {
+  padding:0px;
+  margin-bottom:5px;}
+h4 {
+  margin:2px}
+.container {
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    background:none;
+    align-items:center;}
+.textbox {
+  width:75%;
+  flex-direction:column;
+  background:none;
+  display:flex;
+  align-items:center;}
+p {
+    width:55%;
+    font-family:'Messinasans-regular', Helvetica, sans-serif;
+    font-size: 14px;}
+.intro{
+  width:55%;
+  font-size:16px;
+  font-style:italic;}
+.centeredtext{
+  text-align: center;}
+p .p2 {
+  font-family:'Messinasans-regular', Helvetica, sans-serif;}
+.seminar {
+    display:flex;
+    flex-direction:row;
+    width:250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 30px;}
+.imagebox{
+  margin:20px 0 20px 0;
+  display:flex;
+  flex-direction:center;
+  align-items:center;
+  justify-content:center;}
+.imagebig{
+  align-items:center;
+  float:center;
+  width:100%;}
+.imagemedium{
+  align-items:center;
+  float:center;
+  width:70%;}
+.imagesmall{
+  align-items:center;
+  float:center;
+  width:45%;}
+.imagesmaller{
+    align-items:center;
+    float:center;
+    width:30%;}
+.tag {
+    width:auto;
+    text-align:center;
+    font-size: x-small;
+    color:lightgrey;
+    margin-bottom:80px;}
+
+.dotlist{display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+.sum {
+  width:50%;}
+nav ul {
+    align-items:center;
+    list-style-type:none;
+    padding: none;
+    margin: 10px -10px 10px -5px;}
+
+nav li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin:0 100px 0 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;}
+
+nav li:hover {
+
+  background-color: rgba(0, 0, 0 ,0.2)}
+.liTBTM {
+    display: inline-block;
+    margin-left:-10px;}
+.title {
+  font-family:'Messinasans-regular', Helvetica, sans-serif;
+  font-size: xx-large;}
+.icon {
+  width:20px;}
+.pdfview {
+  margin:15px 0px 15px;}
+a {
+  text-decoration: none;
+  color:black;}
+.term3-item{
+    display:inline-block;
+    margin-left:0px;
+    margin-right:-10px;}
+.fab-item{
+    display:inline-block;
+    margin-left:0px;
+    margin-right:-10px;}
+.item{    
+    display:flex;
+    flex-direction: row;
+    width:250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 30px;}
+.a-home{
+      color:black;}
+footer{
+        margin: 30px 0 0 0;
+        align-items:center;
+        text-align:  center;
+        color:darkgrey;
+        font-size: smaller;}
+
+
+  
+
+  /* RESPONSIVENESS */
+
+@media screen and (max-width: 800px) {
+nav ul{
+    display:flex;
+    flex-direction:column;
+    margin-left:-60px}
+header .mobile {
+    display:inline-block;
+    font-family:'Messinasans-regular';
+    background:none;
+    padding:10px;
+    margin:0}
+header .desktop {
+    display: none;} 
+.term3-item {
+  display:flex;
+  align-items: center;
+  justify-content: center;}
+.imagebox{
+  width:auto;
+  margin:20px 0 20px 0;}
+.imagesmaller{
+  width:300px;
+  height:auto;}
+.imagesmall{
+  width:100%;
+  height:auto;}
+.imagemedium{
+    width:100%;
+    height:auto;}
+.imagebig{
+  width:100%;
+  height:auto;}
+.container{
+  padding:0 5% 0 5%;
+  width:100%;}
+.textbox{
+  width:auto;
+  padding:0 5% 0 5%;}
+p {
+    width:auto;}
+.intro {
+  width:auto;}
+  }

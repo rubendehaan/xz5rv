@@ -123,11 +123,17 @@ align-items: center;}
   width:50%;}
 nav ul {
     align-items:center;
-    list-style-type:none;}
+    list-style-type:none;
+    padding: none;
+    margin: 10px 0px 10px -5px;}
 nav li {
     display: inline-block;
+    padding: 10px 10px 10px 10px;
     margin:0 100px 0 0;
-    padding:0px;}
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;}
+nav li:hover {
+  background-color: rgba(0, 0, 0 ,0.2)}
 .liTBTM {
     display: inline-block;
     margin-left:-10px;}

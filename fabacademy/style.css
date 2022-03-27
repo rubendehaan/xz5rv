@@ -126,13 +126,19 @@ p .p2 {
 .sum {
   margin:-2px 0 0 0;
   width:40%;}
-nav ul {
+  nav ul {
     align-items:center;
-    list-style-type:none;}
+    list-style-type:none;
+    padding: none;
+    margin: 10px 0px 10px -5px;}
 nav li {
     display: inline-block;
+    padding: 10px 10px 10px 10px;
     margin:0 100px 0 0;
-    padding:0px;}
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;}
+nav li:hover {
+  background-color: rgba(0, 0, 0 ,0.2)}
 .title {
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   font-size: xx-large;}
@@ -159,8 +165,12 @@ footer{
   align-items:center;
   text-align:  center;
   color:darkgrey;
-  font-size: smaller;
-}
+  font-size: smaller;}
+.dotlist{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
 
 
   
