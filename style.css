@@ -143,11 +143,18 @@ nav li:hover {
 .liTBTM {
     display: inline-block;
     margin-left:-10px;}
-.term1-item {
-  display:inline-block;
-  margin-left:0px;
-  margin-right:-10px;}
-
+.term1-item{
+      display:inline-block;
+      margin-left:0px;
+      margin-right:-10px;
+      opacity: 0.5;
+      filter: alpha(opacity=40); }
+.term1-item:hover{
+    display:inline-block;
+    margin-left:0px;
+    margin-right:-10px;
+    opacity: 1.0;
+    filter: alpha(opacity=100);  }
   
 .label1 {
   position:absolute;
