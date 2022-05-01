@@ -116,7 +116,8 @@ p .p2 {
     color:lightgrey;
     margin-bottom:80px;}
 
-.dotlist{display:flex;
+.dotlist{
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;}
@@ -148,14 +149,14 @@ nav li:hover {
 a {
   text-decoration: none;
   color:black;}
-  .term3-item{
+.term3-item{
     display:inline-block;
     margin-left:0px;
     margin-right:-10px;
     opacity: 0.5;
     filter: alpha(opacity=40);  
   }
-  .term3-item:hover{
+.term3-item:hover{
     display:inline-block;
     margin-left:0px;
     margin-right:-10px;
