@@ -58,9 +58,36 @@
           <section>
             <li class="term3-item"> <a href="term3/3.designstudio1.html" ><img class="item"src="term3/images/reflectionDS1.jpg"></a></li>
             <li class="term3-item"> <a href="term3/5.designstudio2.html" ><img class="item"src="term3/images/reflectionDS2.jpg"></a></li>
+            <li class="term3-item"> <a href="term3/6.designstudio3.html" ><img class="item"src="term3/images/reflectionDS3.jpg"></a></li>
 
           </section>
+
+          
        
       </div>
+
+      
+      <button 
+      onclick="topFunction()" id="myBtn" title="Go to top"><img class="topbutton" src="term3/images/arrow.png">
+      </button> 
+
+      <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
+      </script>
+  
     </body>
 </html>

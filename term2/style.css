@@ -27,7 +27,8 @@ body{
     background-color:black;
     color: white;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
-    font-size: small;} 
+    font-size: small;
+    cursor:crosshair;} 
 .bodymenu{
     padding-left:5%;}
 .bodybox{
@@ -155,9 +156,6 @@ a {
     opacity: 0.5;
     filter: alpha(opacity=40); }
 .term2-item:hover{
-  display:inline-block;
-  margin-left:0px;
-  margin-right:-10px;
   opacity: 1.0;
   filter: alpha(opacity=100);  }
 .fab-item{

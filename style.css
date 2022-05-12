@@ -39,7 +39,7 @@ body{
   background-image: url('images/peace2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto 120%;
+  background-size: auto 100%;
   cursor:crosshair;}
 .fiverr{
   position:absolute;
@@ -104,7 +104,6 @@ p {
     font-size: 14px;}
 p .p2 {
   font-family:'Messinasans-regular', Helvetica, sans-serif;}
-
 .tag {
   width:auto;
   text-align:center;
@@ -124,7 +123,6 @@ p .p2 {
       font-family: 'Messinasans-regular', Helvetica, sans-serif;
       color:white;
       font-weight: 700;}
-
 nav ul {
   align-items:center;
   list-style-type:none;
@@ -137,9 +135,7 @@ nav li {
   padding: 5px 10px 5px 10px;
   border-radius: 5px;}
 nav li:hover {
-    
       background-color: rgba(0, 0, 0 ,0.2)}
-
 .liTBTM {
     display: inline-block;
     margin-left:-10px;}
@@ -150,12 +146,8 @@ nav li:hover {
       opacity: 0.5;
       filter: alpha(opacity=40); }
 .term1-item:hover{
-    display:inline-block;
-    margin-left:0px;
-    margin-right:-10px;
     opacity: 1.0;
-    filter: alpha(opacity=100);  }
-  
+    filter: alpha(opacity=100);  }  
 .label1 {
   position:absolute;
   right:10px;
@@ -227,8 +219,6 @@ nav li:hover {
   border-radius: 10px;
   margin-right: 20px;
   margin-top: 30px;}
-  
-
 .columnTBTM{
   font-family:'Messinasans-regular', Helvetica, sans-serif;
   color:#23d5ab;
@@ -268,10 +258,6 @@ a {
   /* RESPONSIVENESS */
 
 @media screen and (max-width: 800px) {
-  ul{
-    display:flex;
-    flex-direction:column;
-    margin-left:-60px;}
   header .mobile {
     display:inline-block;
     font-family:'Messinasans-regular';

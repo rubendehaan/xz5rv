@@ -30,7 +30,7 @@
            </ul>
        </nav>
       </header>
-      <div class="container">
+    <div class="container">
         <div class="textbox">
 
           <h1>Fab challenge 3</h1>
@@ -57,6 +57,7 @@
         <div class="boundbox">
           <p class="boundtext">Input Devices</p>
         </div>
+
         <div class="textbox">
           <p>
             The core purpose of sensors is to capture and monitor data. The aggregation of this data can be collected into powerful indices. 
@@ -64,6 +65,7 @@
 
             </p>
         </div>
+
           <div class="imagebox"><img src="images/sensoring.png" class="imagesmall"></div>
           <div class="tag"><p3><i>figure 1:</i> Types of sensors.</p3></div>
 
@@ -80,6 +82,7 @@
               In the case of analogue signalling, all input values between 0V and 5V are possible. For example a sensoric input value of 1,8V (defined in Arduino as 1V8).
               </p>
          </div>
+
          <div class="imagebox"><img src="images/datatransfer.png" class="imagesmall"></div>
          <div class="tag"><p3><i>figure 2:</i> Datatransfer on a moving robot.</p3></div>
 
@@ -98,6 +101,7 @@
           </p>
 
        </div>
+
        <div class="imagebox"><img src="images/networktypes.png" class="imagesmall"></div>
        <div class="tag"><p3><i>figure 3:</i> Types of networks.</p3></div>
 
@@ -130,29 +134,104 @@
     
     
      </p>
-    <p>
-      #include WiFi.h
-      #include 
-      const char* ssid = "Iaac-WiFI"
-      Standard MQTT port is 1883.
-
-
-    </p>
+     </div>
     
+
+    <div class="boundbox">
+      <p class="boundtext">
+        Interface and application programming
+      </p>
+    </div>
+
+    <div class="textbox">
+    <p>
+      Viktor and Josep explained the usage of data application tools. There are plenty of tools for interpreting and managing data, some of which include: Blender, P5js, Processing and IBM's NodeRED written in languages like C++, Java and Python among others.
+      Storing data and running a interactive dashboard on a external cloud offers a lot of opportunities but - as anything - needs to be considered and placed in context. Carefulness is required since running a interactive interface can have significant security risks or result in indirect/inefficient solutions.
+   </p>
+   <p>
+    The most basic way to digitally structure data is through CSV (=Comma Seperated Value). A different approach can be .JSON (Java-Script Object Notation) which can be regarded as a multi hierarchial storing and transporting index for data.
+    Josep continued with a hands-on P5.js workshop.
+    </p>
+    <p>
+   Blender allows python-based object oriented coding (bpy). Starting off with a default cube.
+    </p>
+    </div>
+
+    <div class="codebox">
+    <figure>
+        <pre>
+          <code>
+cube = bpy.data.objects['Cube']
+cube.location.x
+cube.location = (2,3,4.5)
+          </code>
+        </pre>
+    </figure>
+    </div>
+ 
+    <div class="textbox">
+      <p>
+          Viktor showed his project 'Suzan'; a modelled sculpted head which corelates via a phyton script the gyroscope data of his smartphone and mimics the movements digitally in Blender.
+          It shows the interaction between code and interface of Blender. Sending code to a processor clean signalling is crucial.
+          With the while-function below it's sure that the serial port sends only the necessary information.
+
+             </p>
+
+      </div>
+
+    <div class="codebox">
+    <figure>
+        <pre>
+          <code>
+
+            void loop() {
+
+              if (Serial.available()) state = Serial.parseInt(); // Get the value
+              while (Serial.available()) Serial.read();  // Clean the Serial port
+              
+              if (state > 0) digitalWrite(LED_BUILTIN, HIGH);  // Turn on the led 
+              else digitalWrite(LED_BUILTIN, LOW);    // or off
+            
+              delay(200);
+            }
+          </code>
+        </pre>
+    </figure>
     </div>
 
 
+    <div class="boundbox">
+      <p class="boundtext">
+        Robotics
+      </p>
+    </div>
+    <div class="textbox">
+      <p>
+        Robotic arms are distinct machinery in multiple aspects, one of which is that instead of a single g-code, a robotic arm constantly uses different, responsive g-codes. 
+        For example the Kuka-arm at IAAC can have a 150 kg payload moving up to 2 m/s, offering loads of opportunities in different fields of use. Some use cases include, 3D printing (plastic, metal, clay), welding, sawing and photography. Due to educational and commerical interest and technological advancements, the average hourly price of industrial robotic applications for the first time undercut human labour.
+        At KIA (car manufacturer) in Žilina, Slovakia, there's a 7,5 km production line, fully robotized with human interference only focussed on supervizion. 
+      </p>
+      <p>
+        Robots are made to move. More specifically they are designed to do a physical task repetively resulting in a repeatability (=difference in endresult after x amount of executions) and designated wire-routing.
+        Singularity occurs when two axis are alligned (co-linear). Because its dangerous moving elements a robotic kill switch usually has to be consciously half-centered so that non-controlled muscle movements will automatically
+        turn off the machine. The wattage of a robotic arm is similar to medium-sized CNC milling machine being around 3,8 kW. With PLC's (=Programmable Logic Controllers) output feedback loops can be created to - for example - generate self-calibration functionality.     
+      </p>
+      <p>
+        Programming robotic control is tricky in terms of plane-definition and orienting inbetween those planes.
+      </p>
+    </div>
 
+    <div class="imagebox"><img src="images/robotics.png" class="imagesmall"></div>
+    <div class="tag"><p3><i>figure 5:</i> Different robotics.</p3></div>
 
-
-
-</div>
+    </div>
 
 
       <footer>
-        Links: <a class="link" href="https://www.google.com/">Google</a><br>
+        Links: <a class="link" href="https://www.python.org//">Python</a>, <a class="link" href="https://appinventor.mit.edu/">MIT inventor</a>,
+        <a class="link" href="https://press.kia.com/eu/en/home/corporate/factoryslovakia.html">Kia</a>, <a class="link" href="https://ai-build.com">AI-build</a>, <a class="link" href="https://www.kuka.com/">Kuka</a>, <a class="link" href="https://www.robodk.com/">RoboDK</a><br>
         Created on: April 20th, 2022<br>
-        Edited on: April 27th, 2022<br>
+        Edited on: May 11th, 2022<br>
         By Ruben de Haan
 
       </footer>
