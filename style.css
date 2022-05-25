@@ -24,22 +24,36 @@ header{
       50% {background-position: 100% 50%;}
       100% {background-position: 0% 50%;}}
 .home{
+  width:1200px;
   background:none;}
 body{
     background-color:black;
     color: white;
     font-family:'Messinasans-regular', Helvetica, sans-serif;
     font-size: small;
-    padding: 0px 0px 0px 0px ;
+    padding: 0;
     cursor:crosshair;} 
-.bodymenu{
-      padding-left:5%;
-      padding-right:5%;}
-.bodybackground{
-  background-image: url('images/peace2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: auto 100%;
+.bodybox{
+    padding:0 5% 0 5%;
+    align-content: center;}
+.start{
+  position:relative;
+  display:block;
+  flex-direction: column;
+  min-height: 590px;
+  width:100%;}
+.welcome{
+  margin:0 0 0 5%;}
+.bg{
+  background: url('images/peace2.jpg');
+  background-color: rgba(0, 0, 0 ,0, 0);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
   cursor:crosshair;}
 .fiverr{
   position:absolute;
@@ -270,9 +284,9 @@ a {
     display:flex;
     align-items: center;
     justify-content: center;}
-  .bodybackground{
-    background-image: url('images/peace2.jpg');
-    background-size: auto 100%;}
+  .start{
+    max-width:800px;
+  }
   nav ul{
       display:flex;
       flex-direction:column;
