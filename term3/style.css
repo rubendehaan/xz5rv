@@ -39,6 +39,11 @@ body{
     font-family: 'Messinasans-regular', Helvetica, sans-serif;
     color:white;
     font-weight: 900;}
+
+.link:hover{
+      color:darkgrey;
+    }
+
 .link-icon{
     width:10px;
     height:auto;

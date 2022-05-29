@@ -137,6 +137,10 @@ p .p2 {
       font-family: 'Messinasans-regular', Helvetica, sans-serif;
       color:white;
       font-weight: 700;}
+
+.link:hover{
+      color:darkgrey;
+    }
 nav ul {
   align-items:center;
   list-style-type:none;
