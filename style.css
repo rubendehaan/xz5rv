@@ -265,6 +265,8 @@ a {
   color:black;}
 .a-home{
   color:white;}
+.a-home:hover{
+  color:lightgrey;}
 
   /* RESPONSIVENESS */
 

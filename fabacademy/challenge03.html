@@ -146,7 +146,32 @@
     
      </p>
      </div>
+
+
+     <div class="textbox">
+
+      <h3>Example</h3>
+      <p>
+        As use-case for communication between boards I connected two Adafruit Huzzah ESP32 feather microcontrollers.
+        One board served as server (hosting a Wifi network) while the other was it's client. The server ESP32 measured and publishes humidity and temperature by a DHT11 sensor to a IP-address through HTTP. 
+        The client ESP32 subscribes to this HTTP per a HTTP request and interprets this data by lighting up an LED when exceeding a certain threshold; in this case 30° celcius.
     
+     </p>
+
+     </div>
+
+
+     <div class="imagebox"><img src="images/intramc.png" class="imagemedium"></div>
+     <div class="tag"><p3><i>figure 6:</i> Communication between two ESP32 microcontrollers.</p3></div>
+
+
+     <div class="imagebox"><img src="images/intramc2.png" class="imagemedium"></div>
+     <div class="tag"><p3><i>figure 7:</i> Client retrieving DHT11 sensor data from server to light up an led. </p3></div>
+
+
+
+
+
 
     <div class="boundbox">
       <p class="boundtext">
@@ -233,7 +258,7 @@ cube.location = (2,3,4.5)
     </div>
 
     <div class="imagebox"><img src="images/robotics.png" class="imagesmall"></div>
-    <div class="tag"><p3><i>figure 6:</i> Different robotics.</p3></div>
+    <div class="tag"><p3><i>figure 7:</i> Different robotics.</p3></div>
 
     </div>
 
